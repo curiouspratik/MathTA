@@ -16,12 +16,10 @@ def chatbox():
             st.markdown(prompt)
 
         # Generate llama-index stream with user input
+        prompt = prompt + "Please add $$ and $$ around all mathematical equations so that they can be shown in newline in latex format."
         with st.chat_message("assistant"):
             with st.spinner("Processing..."):
                 response = st.write_stream(
-                    # chat(
-                    #     prompt=prompt
-                    # )
                     context_chat(
                         prompt=prompt, query_engine=st.session_state["query_engine"]
                     )

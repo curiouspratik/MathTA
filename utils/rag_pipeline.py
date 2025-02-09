@@ -80,10 +80,10 @@ def rag_pipeline(uploaded_files: list = None):
     hf_embedding_model = None
 
     if embedding_model == None:
-        hf_embedding_model = "BAAI/bge-large-en-v1.5"
+        hf_embedding_model = "mixedbread-ai/mxbai-embed-large-v1"
 
-    if embedding_model == "Default (bge-large-en-v1.5)":
-        hf_embedding_model = "BAAI/bge-large-en-v1.5"
+    if embedding_model == "Default (mxbai-embed-large-v1)":
+        hf_embedding_model = "mixedbread-ai/mxbai-embed-large-v1"
 
     if embedding_model == "Large (Salesforce/SFR-Embedding-Mistral)":
         hf_embedding_model = "Salesforce/SFR-Embedding-Mistral"
