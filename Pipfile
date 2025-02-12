@@ -21,6 +21,7 @@ torch = { version = "*", sys_platform = "!= 'darwin'" }
 colorama = { version = "*", sys_platform = "== 'win32'" }
 ebooklib = "*"
 llama-index-core = "*"
+fastapi = "*"
 
 [dev-packages]
 

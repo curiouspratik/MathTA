@@ -1,0 +1,15 @@
+fastapi
+fastapi[standard]
+uvloop
+uvicorn
+llama-index
+llama-index-core
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+torch
+python-multipart
+requests
+huggingface-hub
+transformers
+sentence-transformers
+typing-extensions

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f426c78bc66b0e2eb5ef13d01f5719cd218e830a4419ad3ee95da8e6007d02de"
+            "sha256": "358f4bd7b2dc32e2ac39657086398a42005fe656178b4138140aae42e94f5719"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -498,6 +498,15 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==35.2.0"
+        },
+        "fastapi": {
+            "hashes": [
+                "sha256:0ce9111231720190473e222cdf0f07f7206ad7e53ea02beb1d2dc36e2f0741e9",
+                "sha256:753a96dd7e036b34eeef8babdfcfe3f28ff79648f86551eb36bfc1b0bf4a8cbf"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==0.115.8"
         },
         "fastjsonschema": {
             "hashes": [
@@ -3045,6 +3054,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==1.2.3"
+        },
+        "starlette": {
+            "hashes": [
+                "sha256:2cbcba2a75806f8a41c722141486f37c28e30a0921c5f6fe4346cb0dcee1302f",
+                "sha256:dfb6d332576f136ec740296c7e8bb8c8a7125044e7c6da30744718880cdd059d"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==0.45.3"
         },
         "streamlit": {
             "hashes": [

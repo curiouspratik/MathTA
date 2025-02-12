@@ -1,0 +1,3 @@
+curl -X POST -H "Content-Type: multipart/form-data" -F "file=@CH0.pdf" http://0.0.0.0:80/upload/
+
+curl -X GET "http://localhost:80/api/math-query/?prompt=what%20is%20chapter%20about%3F" -H "accept: application/json"
